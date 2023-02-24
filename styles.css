@@ -1,0 +1,119 @@
+.container-fluid {
+  align-content: center;
+}
+
+.top-bar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1px;
+}
+
+.health-container{
+  width: 100%;
+
+}
+.health {
+  width: 100%;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+/*Nav bar styling below */
+head {
+  position: relative;
+  color: rgb(29, 128, 127);
+}
+
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: rgb(29, 128, 127);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*affordfble section*/
+h2 {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.small-paragraph {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*Picture gallery*/
+
+.image-gallery {
+  display: flex;
+}
+
+.first-image {
+
+}
+
+
+/*image container*/
+
+.container-image {
+  display: flex;
+  background-color: rgb(251, 245, 238);
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.image-section, .paragraph{
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.paragraph {
+ align-content: center;
+ display: flex;
+ padding-bottom: 100px;
+}
+
+
+/*Sign up*/
+
+.signup{
+  width: 100%;
+  padding-top: 50px;
+}
+
+
+.bottom-layout {
+  display: flex;
+  align-content: center;
+}
